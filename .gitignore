@@ -1,0 +1,17 @@
+# Entornos virtuales (el que creamos antes)
+.venv/
+venv/
+ENV/
+
+# Archivos ejecutables individuales o carpetas de compilación
+*.exe
+dist/
+build/
+
+# Archivos temporales y caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
