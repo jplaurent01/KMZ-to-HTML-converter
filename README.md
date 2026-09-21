@@ -33,3 +33,11 @@ pip install -r requirements.txt
 * **No Third-Party Software Required:** You don't need to open, process, or export your files through Google Earth, ArcGIS, or any other heavy GIS software. The conversion happens 100% locally and natively in Python.
 * **Smart Text Positioning:** You can dynamically move and adjust the text labels of your data points. This prevents text overlapping and clutter, ensuring a much cleaner, professional, and readable map generation.
 
+# Visual Improvement (Before vs. After)
+
+By adjusting text labels dynamically, the script eliminates text overlapping, making complex maps much cleaner and easier to read.
+
+| Before (Overlapped & Cluttered) | After (Clean & Readable) |
+| :---: | :---: |
+| <img src="images/input.png" width="400" alt="Cluttered map text"> | <img src="images/output.png" width="400" alt="Clean map text"> |
+
